@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <button>+</button>
+    <p>What's on your mind?</p>
+    <input id="input" type="text" style="display: none">
+    <div class="dropdown" style="display: none">
+        <span>Priority</span>
+        <div class="dropdown-content priority">
+            <p id="high">High</p>
+            <p id="med">Medium</p>
+            <p id="low">Low</p>
+        </div>
+    </div>
+
+    <div class="dropdown" style="display: none">
+        <span>Category</span>
+        <div class="dropdown-content category">
+            <p id="work">Work</p>
+            <p id="play">Play</p>
+            <p id="other">Other</p>
+        </div>
+    </div>
+
+    <div id="items-container"></div>
+</body>
+</html>
+
+

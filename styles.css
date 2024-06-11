@@ -1,0 +1,20 @@
+.dropdown {
+    display: inline-block;
+    width: 100px;
+}
+
+.dropdown-content {
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 2px 12px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#items-container {
+    max-width: 400px;
+    height: auto;
+    border: 1px solid black;
+}
